@@ -15,7 +15,7 @@ public class EvaluationTests
     [Fact]
     public void ValidGuessesHigherThanAnswerSayLower()
     {
-        Assert.Equal("Higher", _engine.Evaluate(8));
+        Assert.Equal("Lower", _engine.Evaluate(8));
     }
     
     [Fact]

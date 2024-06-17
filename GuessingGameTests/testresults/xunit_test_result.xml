@@ -1,0 +1,43 @@
+<assemblies timestamp="06/17/2024 22:03:13">
+  <assembly name="/home/liam/code/blprnt-org/guess-demo/GuessingGameTests/bin/Debug/net8.0/GuessingGameTests.dll" run-date="2024-06-17" run-time="22:03:13" total="11" passed="10" failed="0" skipped="1" time="0.439" errors="0">
+    <errors />
+    <collection total="4" passed="3" failed="0" skipped="1" name="Test collection for GuessingGame.Tests.EvaluationTests" time="0.003">
+      <test name="GuessingGame.Tests.EvaluationTests.Guessing42IsAlwaysCorrect" type="GuessingGame.Tests.EvaluationTests" method="Guessing42IsAlwaysCorrect" time="0.0010000" result="Skip">
+        <reason><![CDATA[Not implemented yet]]></reason>
+        <traits />
+      </test>
+      <test name="GuessingGame.Tests.EvaluationTests.ValidGuessesEqualToAnswerSayCorrectBang" type="GuessingGame.Tests.EvaluationTests" method="ValidGuessesEqualToAnswerSayCorrectBang" time="0.0017205" result="Pass">
+        <traits />
+      </test>
+      <test name="GuessingGame.Tests.EvaluationTests.ValidGuessesLowerThanAnswerSayHigher" type="GuessingGame.Tests.EvaluationTests" method="ValidGuessesLowerThanAnswerSayHigher" time="0.0000635" result="Pass">
+        <traits />
+      </test>
+      <test name="GuessingGame.Tests.EvaluationTests.ValidGuessesHigherThanAnswerSayLower" type="GuessingGame.Tests.EvaluationTests" method="ValidGuessesHigherThanAnswerSayLower" time="0.0000418" result="Pass">
+        <traits />
+      </test>
+    </collection>
+    <collection total="7" passed="7" failed="0" skipped="0" name="Test collection for GuessingGame.Tests.UserInputTests" time="0.003">
+      <test name="GuessingGame.Tests.UserInputTests.WholeNumbersOutOfRangeAreInvalid(input: &quot;-5&quot;)" type="GuessingGame.Tests.UserInputTests" method="WholeNumbersOutOfRangeAreInvalid(input: &quot;-5&quot;)" time="0.0016977" result="Pass">
+        <traits />
+      </test>
+      <test name="GuessingGame.Tests.UserInputTests.WholeNumbersOutOfRangeAreInvalid(input: &quot;1729&quot;)" type="GuessingGame.Tests.UserInputTests" method="WholeNumbersOutOfRangeAreInvalid(input: &quot;1729&quot;)" time="0.0001025" result="Pass">
+        <traits />
+      </test>
+      <test name="GuessingGame.Tests.UserInputTests.WholeNumbersOutOfRangeAreInvalid(input: &quot;0&quot;)" type="GuessingGame.Tests.UserInputTests" method="WholeNumbersOutOfRangeAreInvalid(input: &quot;0&quot;)" time="0.0000034" result="Pass">
+        <traits />
+      </test>
+      <test name="GuessingGame.Tests.UserInputTests.WholeNumbersInRangeAreValid" type="GuessingGame.Tests.UserInputTests" method="WholeNumbersInRangeAreValid" time="0.0002524" result="Pass">
+        <traits />
+      </test>
+      <test name="GuessingGame.Tests.UserInputTests.NotWholeNumbersAreInvalid(input: &quot;3.141592&quot;)" type="GuessingGame.Tests.UserInputTests" method="NotWholeNumbersAreInvalid(input: &quot;3.141592&quot;)" time="0.0004572" result="Pass">
+        <traits />
+      </test>
+      <test name="GuessingGame.Tests.UserInputTests.NotWholeNumbersAreInvalid(input: &quot;cat in hat&quot;)" type="GuessingGame.Tests.UserInputTests" method="NotWholeNumbersAreInvalid(input: &quot;cat in hat&quot;)" time="0.0000950" result="Pass">
+        <traits />
+      </test>
+      <test name="GuessingGame.Tests.UserInputTests.NotWholeNumbersAreInvalid(input: &quot;&quot;)" type="GuessingGame.Tests.UserInputTests" method="NotWholeNumbersAreInvalid(input: &quot;&quot;)" time="0.0000034" result="Pass">
+        <traits />
+      </test>
+    </collection>
+  </assembly>
+</assemblies>
